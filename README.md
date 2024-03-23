@@ -1,183 +1,157 @@
-Headphonezone
+### HEADPHONEZONE
 Headphonezone is an open source web project where user can View, search, and order headphones by making payment through their profile/account. To bring the Headphones market online and all of its function. It will automate most of the human work which is hard and can be time consuming, reducing the burden. Bring the consumers and vendors closers, and increase the e-business and motivate more people to use the e-business in their business works. 
 
-Contributors:
-Dhiraj Bhosle. (dhirajbhosle (github.com))
-Mithilesh Vishwakarma. (47Mith (Mithilesh Vishwakarma) (github.com) )
-Aishwarya Ambre. (AishwaryaAmbre (github.com) )
+**Contributors:**
 
-Project summery
-The website displays a comprehensive list of available headphones, including details like brand, model, price, and specifications.
-Users are able to search for headphones by using category option included
-Each headphone product page provides detailed information, high-quality images, price, and technical specifications.
-Users are able to add headphones to their cart, view the cart, and proceed to payment.
-This website allows users to create accounts, log in, and manage their profiles. Unregistered users can register themselves.
-Admins has the ability to manage orders, process payments, and update order statuses.
+- Dhiraj Bhosle. (dhirajbhosle (github.com)).
+- Mithilesh Vishwakarma. (47Mith (Mithilesh Vishwakarma) (github.com) ).
+- Aishwarya Ambre. (AishwaryaAmbre (github.com) ).
 
-Prerequisites:
-Platform : Microsoft Azure 
-PHP , CSS, HTML
-Xampp
-Azure Monitor and Alerts
-Azure Virtual Machine Deployment
-DNS Zones and Azure DNS
-Azure Language Services & Chatbot
+**Project Summary:**
 
-The Azure DNS service provides a globally distributed and high-availability name server infrastructure for managing domain names and DNS records. Azure DNS simplifies management, ensures security, and offers scalability for your DNS needs. It’s a powerful tool for maintaining your domain names and DNS records in the cloud.
-Azure Monitor helps you proactively detect and address issues before users notice them. It provides monitoring and alerting capabilities for various data sources. Azure Monitor ensures high availability, scalability, and unlimited data transfer. It’s a crucial tool for maintaining the health and performance of your Azure resources.
-Azure Virtual Machines (VMs) allow you to deploy and manage scalable compute resources in the cloud.
-Azure Virtual Network is a service that provides the fundamental building block for your private network in Azure. An instance of the service (a virtual network) enables many types of Azure resources to securely communicate with each other, the internet, and on-premises networks. These Azure resources include virtual machines (VMs).
-An Azure Network Security Group (NSG) is indeed an essential Azure service. It acts as a firewall to regulate both inbound and outbound network traffic for various Azure resources within an Azure virtual network. NSGs allow you to define security rules that either permit or deny network traffic based on various criteria.
-The Azure AI Bot Service simplifies building conversational AI bots. Azure AI Bot Service integrates with Power Virtual Agents, allowing multidisciplinary teams to collaboratively build bots. Extend your reach across multiple channels and languages.
+The website displays a comprehensive list of available headphones, including details like brand, model, price, and specifications.
+Users are able to search for headphones by using category option included
+Each headphone product page provides detailed information, high-quality images, price, and technical specifications.
+Users are able to add headphones to their cart, view the cart, and proceed to payment.
+This website allows users to create accounts, log in, and manage their profiles. Unregistered users can register themselves.
+Admins has the ability to manage orders, process payments, and update order statuses.
 
-System Requirements :
+**Prerequisites:**
+
+	Platform : Microsoft Azure 
+	PHP , CSS, HTML
+	Xampp
+	Azure Monitor and Alerts
+	Azure Virtual Machine Deployment
+	DNS Zones and Azure DNS
+	Azure Language Services & Chatbot
+
+The Azure DNS service provides a globally distributed and high-availability name server infrastructure for managing domain names and DNS records. Azure DNS simplifies management, ensures security, and offers scalability for your DNS needs. It’s a powerful tool for maintaining your domain names and DNS records in the cloud.
+Azure Monitor helps you proactively detect and address issues before users notice them. It provides monitoring and alerting capabilities for various data sources. Azure Monitor ensures high availability, scalability, and unlimited data transfer. It’s a crucial tool for maintaining the health and performance of your Azure resources.
+Azure Virtual Machines (VMs) allow you to deploy and manage scalable compute resources in the cloud.
+Azure Virtual Network is a service that provides the fundamental building block for your private network in Azure. An instance of the service (a virtual network) enables many types of Azure resources to securely communicate with each other, the internet, and on-premises networks. These Azure resources include virtual machines (VMs).
+An Azure Network Security Group (NSG) is indeed an essential Azure service. It acts as a firewall to regulate both inbound and outbound network traffic for various Azure resources within an Azure virtual network. NSGs allow you to define security rules that either permit or deny network traffic based on various criteria.
+The Azure AI Bot Service simplifies building conversational AI bots. Azure AI Bot Service integrates with Power Virtual Agents, allowing multidisciplinary teams to collaboratively build bots. Extend your reach across multiple channels and languages.
+
+**System Requirements :**
+
 1. Registration : The user must first register its account in order to use the site. Without registering the user will be able to use the website but will be limited to only browsing the items in it. 
- Input : User Details
- Output : Registration successful 
-PreCondition : No existing user with same credentials 
-PostCondition : User able to login in with his/her account 
+•	 Input : User Details
+•	 Output : Registration successful 
+•	PreCondition : No existing user with same credentials 
+•	PostCondition : User able to login in with his/her account 
 2. Login : After registering the user will have to login in the system by the username/idand the password and after it is verified by the registered id and password the user willbe logged in the system. 
-Input : username and password 
-Output : successful login 
-PreCondition : user should be registered 
-PostCondition : moved to user home 
+•	Input : username and password 
+•	Output : successful login 
+•	PreCondition : user should be registered 
+•	PostCondition : moved to user home 
 3.Cart :The user will be able to add the products or items they like in the cart for their futureease in finding the product and buying.
-Input : add product to cart 
-Output : product added to cart 
-PreCondition : user should have logged in 
-PostCondition : item available in cart 
+•	Input : add product to cart 
+•	Output : product added to cart 
+•	PreCondition : user should have logged in 
+•	PostCondition : item available in cart 
 4.Categories : Different products will be placed in different categories to which it belong so it will be easier to find a certain type of product by accessing the categories to which it belongs. 
-Input : search category
- Output : show the categories item 
- PreCondition : valid category 
- PostCondition : all item in the category are shown
+•	Input : search category
+•	 Output : show the categories item 
+•	 PreCondition : valid category 
+•	 PostCondition : all item in the category are shown
 5.About us: website related information is provided and User can contact the host via the address, contact and email provided. 
 
-Flowchart:
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/42ba9899-75f7-4bd3-ac76-14a21899461d)
+**Flowchart:**
 
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/75085e1e-e2b4-4c18-839c-8d1a2973f89d)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/da99d488-8e64-4df8-98a2-fcc0be852207)
 
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/11bfbbd0-99da-4181-b49a-dce764e16824)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/aaa2e58a-3ea6-4395-b4bd-5c1868726a1d)
 
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/d713d337-6f96-4412-9db9-15ecedb43236)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/d6b2fda4-69df-45f8-811e-4ef9110231ef)
 
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/d3a283ea-dcee-4486-8015-cd43f107ab77)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/628ddde1-2e75-4176-9f66-8ceb75b586ed)
 
-Resource Visualizer
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/1b953f3c-5555-4baa-b7b2-b01784c20967)
 
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/d0619403-455a-44fa-8c0e-54ec5976362c)
+**Resource Visualizer**
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/67ab02b1-d14b-4cb4-899d-77be39e425b2)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/fd512760-b595-4ab7-89a7-c1b7f476ec12)
 
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/e1dac066-0849-4c99-88c0-7b57fb6418e6)
+**Services Added:**
 
+**VIRTUAL MACHINE**
 
-Services added:
-VIRTUAL MACHINE
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/be2ebcc2-b9cd-4892-a653-4e4ada382d8d)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/edc70f65-ac09-4fd1-afb8-b54344f95191) 
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/fea91d9b-5d2f-4ef8-a34b-29d239395266)
 
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/671ae35c-89c3-4ae2-b348-4ede430a2d73)
+**VIRTUAL NETWORK**
 
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/73ad1af9-462f-42d6-86fb-0d4a62733418)
 
-VIRTUAL NETWORK
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/0899092c-79aa-4363-bf75-a1846da500e6)
+**NETWORK SECURITY GROUP**
 
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/8661dc1e-9a70-4507-95af-856c8385271b)
 
-NETWORK SECURITY GROUP
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/5407287a-b2fe-4929-bc45-5d4d06967531)
+**DNS SERVICE**
 
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/8fca267f-eb55-49f8-a0fe-a515a2f8e140)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/65b9933d-8451-4fec-803a-3cc7582ec019)
 
+**ALERT SERVICE**
 
-DNS SERVICE
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/10fe4770-0dfa-48eb-84d9-1291e0e28b89)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/c26d51ce-113f-4395-b50a-8bdc0bf37297)
 
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/d2c51ed6-c420-425b-a271-1d877a8c0533)
+**AI SERVICE- CHATBOT**
 
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/0e5a2f31-a49d-4294-8f4d-83076815ab6b)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/cfdc0b28-e7d0-401e-8a15-45aa0b057afd)
 
-ALERT SERVICE
+ **WEB OVERVIEW**
+ 
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/d0a15cf4-ba7d-4865-81ea-5999f1fbc22f)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/d584c569-4e27-498c-81ff-7f0c84d5822d)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/5636f961-4813-494c-b215-ac126e1e67db)
 
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/ca0a397e-2086-4302-978c-83c833f548cd)
+**USER INTERFACE**
 
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/b0b56b4f-f899-4ff8-bacf-ed05453135cb)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/94c5ffe1-3dda-4806-b426-b25fb520096f)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/87edec4b-b0c7-4f59-b894-ba2431276faf)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/856a3081-d8dc-4005-88da-13e9bad9de29)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/2f31ae77-2e6e-4dae-a41f-1db59954efa5)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/5262cd24-6f73-4b43-a380-05795b0063c5)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/1d0ec1f0-7f0f-4dd2-be6e-2796b638be2f)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/19c83c0e-bd1d-4037-947e-47d9a3d467c8)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/767129fb-fcff-4b16-8751-628d9378befb)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/0367f982-d7a8-44a1-a5e6-95efc63fceac) 
 
+**ADMIN INTERFACE**
 
-AI SERVICE- CHATBOT
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/9e5e9d32-d6bc-41a8-abff-63e5a75dc2df)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/553eb7fa-57ef-41b9-ba40-558e4eac08e6)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/874304d1-d8b8-4005-8b7b-9adc7ce1a2db)
+![image](https://github.com/AishwaryaAmbre/AzureProjectHeadphonezone/assets/159557325/591b2cc4-2031-4439-8c4b-012b5f87935f)
 
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/71fbe647-284a-4772-98c0-3d0986c78438)
+ 
+**How to use the Project:**
 
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/b0a2e333-c81c-4d22-b455-606e1e657d8c)
-
-
-WEB OVERVIEW
-
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/ef6daf42-10db-4492-91b3-3da4db369397)
-
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/96211c1a-b234-4c1d-9ac1-8b73401eb842)
-
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/d7295f17-33dc-4f54-9a23-894e66084477)
-
-
-USER INTERFACE
-
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/d10463d8-5b21-498c-a150-6ce6b4fd4b9a)
-
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/c02b4f37-9d21-49f6-9df7-6d84e9ff24cd)
-
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/c71e8a05-c935-4752-b8dc-4bf95bae8814)
-
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/dccf7a56-9a25-4eb5-ad64-1e5c2c1e3daf)
-
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/18c72d2f-93de-4178-a3e2-dfeee228067c)
-
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/e67589d1-a990-4943-b882-04be06cc86e6)
-
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/1237d3e0-93eb-4ce8-a632-2f6055dd718f)
-
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/b6fb4971-6d9a-4d7a-92a9-88c799989e2f)
-
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/edd38013-1adf-4b1d-a6d6-a53b678028df)
-
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/31072144-6229-47f2-a024-c3983dc9f09c)
-
-
-ADMIN INTERFACE
-
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/63ea1a38-2b97-4ea8-8c81-cfe02082aa05)
-
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/03868b91-b84e-4ced-b630-f3bcbc478112)
-
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/019b24cc-4006-43ec-8e2b-3cef0ae8c266)
-
-![image](https://github.com/47Mith/AzureProjectHeadphonezone/assets/109224173/109a56da-fb2e-4b47-b1eb-a59c137b8e90)
-
-
-How to use the Project:
-1.User is required to visit the Microsoft azure portal(https://portal.azure.com)
-2.Azure account ID- mithileshvish@outlook.com 
-3.Followed by user is required to start the Virtual machine, enable the alerts , and start the AI service that is chatbot.
-4.As the virtual machines gets started fill the password mentioned below ad start using the virtual machine
+1.	User is required to visit the Microsoft azure portal(https://portal.azure.com)
+2.	Azure account ID- mithileshvish@outlook.com 
+3.	Followed by user is required to start the Virtual machine, enable the alerts , and start the AI service that is chatbot.
+4.	As the virtual machines gets started fill the password mentioned below ad start using the virtual machine
 Name: HeadphoneZone
 Password: Mithilesh@123
-5.Then start the installed Xampp server in the virtual machine.
-6.Start any new tab on your machine and type http://www.futureproject.shop/Headphonezone18/ 
-7.Futureproject is our DNS service.
-8.As soon as the website is started user can view the website interface and by clicking login button a login page will be displayed, if user is new user one can register by clicking not a member sign up!
-9.User can create a profile and can navigate on the website.
-10.The admin username and password are as follows:  
+5.	Then start the installed Xampp server in the virtual machine.
+6.	Start any new tab on your machine and type http://www.futureproject.shop/Headphonezone18/ 
+7.	Futureproject is our DNS service.
+8.	As soon as the website is started user can view the website interface and by clicking login button a login page will be displayed, if user is new user one can register by clicking not a member sign up!
+9.	User can create a profile and can navigate on the website.
+10.	The admin username and password are as follows:  
 Admin
 Username: abc@gmail.com
 Password: 123
 
-URL of Documentation (PDF file):
+•	URL of Documentation (PDF file):
  https://drive.google.com/file/d/1487pFo8Vy6M-hgG5lIKOaeoXg0Kznoe6/view?usp=sharing 
-URL of Documentation (WORD file): 
+•	URL of Documentation (WORD file): 
 https://docs.google.com/document/d/1GLr6PXN7jMEMp-_oQ93qi6hvXrsVbcle/edit?usp=sharing&ouid=118107359696225724444&rtpof=true&sd=true 
-URL of Video of the 
+•	URL of Video of the 
 project : https://drive.google.com/file/d/1pcodfSb5DizNzye--HEs3F0ZzGgT8ves/view?usp=sharing 
 
 For more information about the project please refer the PDF file attached.
-
-
- 
-
-
-
-
